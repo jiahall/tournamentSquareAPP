@@ -45,15 +45,13 @@
         android:id="@+id/btnHost"
         android:layout_width="256dp"
         android:layout_height="48dp"
-        android:layout_margin="30dp"
-        android:layout_marginEnd="172dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:background="@drawable/buttonstyleblue"
         android:text="@string/host_tournament"
         android:textColor="#fff"
         app:layout_constraintBottom_toTopOf="@+id/btnHosted"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
 
@@ -62,7 +60,6 @@
         android:layout_width="256dp"
         android:layout_height="48dp"
 
-        android:layout_margin="30dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/buttonstyleblue"
         android:text="Hosted Tournaments"
@@ -78,7 +75,7 @@
         android:layout_width="256dp"
         android:layout_height="48dp"
 
-        android:layout_margin="30dp"
+
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -95,7 +92,7 @@
         android:layout_width="256dp"
         android:layout_height="48dp"
 
-        android:layout_margin="30dp"
+
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -112,7 +109,7 @@
         android:layout_width="256dp"
         android:layout_height="48dp"
 
-        android:layout_margin="30dp"
+
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
