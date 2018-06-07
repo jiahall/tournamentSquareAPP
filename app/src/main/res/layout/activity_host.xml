@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.hall.jia.tournamentsquareapp.RegisterActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/host_tournament"
+        android:textColor="@color/text"
+        android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/hstTournamentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/tournament_name"
+            android:singleLine="true"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            app:backgroundTint="@color/text"
+            tools:ignore="MissingPrefix"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/hstTournamentGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/game"
+            android:singleLine="true"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            app:backgroundTint="@color/text"
+            tools:ignore="MissingPrefix"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/hstMaxEntrants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/entrants_cap_32"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            app:backgroundTint="@color/text"
+            tools:ignore="MissingPrefix"/>
+
+        <EditText
+            android:id="@+id/hstLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/location"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            app:backgroundTint="@color/text"
+            tools:ignore="MissingPrefix"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/hstPostcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/postcode"
+            android:singleLine="true"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            app:backgroundTint="@color/text"
+            tools:ignore="MissingPrefix"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/hstEntryFee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/entry_fee_leave_empty_if_none"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            app:backgroundTint="@color/text"
+            tools:ignore="MissingPrefix" />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:text="@string/prize"
+                android:textSize="20sp"
+                />
+
+            <Switch
+                android:id="@+id/hstPrize"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:thumb="@drawable/ic_percent"
+                />
+
+            <EditText
+                android:id="@+id/edt1st"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/_1st"
+                android:singleLine="true"
+                android:inputType="number"
+                android:textColor="@color/text"
+                android:textColorHint="@color/text"
+                app:backgroundTint="@color/text"
+                tools:ignore="MissingPrefix"/>
+            <EditText
+                android:id="@+id/edt2nd"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/_2nd"
+                android:singleLine="true"
+                android:inputType="number"
+                android:textColor="@color/text"
+                android:textColorHint="@color/text"
+                app:backgroundTint="@color/text"
+                tools:ignore="MissingPrefix"/>
+
+            <EditText
+                android:id="@+id/edt3rd"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/_3rd"
+                android:singleLine="true"
+                android:inputType="number"
+                android:textColor="@color/text"
+                android:textColorHint="@color/text"
+                app:backgroundTint="@color/text"
+                tools:ignore="MissingPrefix"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:hint="@string/select_date"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:hint="@string/select_time"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/hstTournamentDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="@string/save_details"
+            android:textColor="@color/text" />
+
+        <Button
+            android:id="@+id/hstCreateTournament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:paddingHorizontal="50dp"
+            android:background="@drawable/buttonstyleblue"
+            android:textColor="@color/buttontxt" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

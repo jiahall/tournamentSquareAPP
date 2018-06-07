@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">TournamentSquareapp</string>
+    <string name="h">Password is required</string>
+    <string name="dont_have_an_account_register_here"><u>Dont have an account? Register here</u></string>
+    <string name="tournament_square">Tournament Square</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="join">Join</string>
+    <string name="title_activity_login2">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="select_date"><u>Select Date</u></string>
+    <string name="select_time"><u>Select Time</u></string>
+    <string name="prize"><u>Prize:</u></string>
+    <string name="equipment">Equipment</string>
+    <string name="screen_s">Screen/s</string>
+    <string name="console_s">Console/s</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="search_here">Search here</string>
+    <string name="find">Find</string>
+    <string name="hunt">Hunt</string>
+    <string name="login">login</string>
+
+
+    <string name="username">Username</string>
+    <string name="host_tournament">Host tournament</string>
+    <string name="tournament_name">Tournament name</string>
+    <string name="game">Game</string>
+    <string name="entrants_cap_32">Entrants cap 32</string>
+    <string name="location">Location</string>
+    <string name="postcode">Postcode</string>
+    <string name="entry_fee_leave_empty_if_none">Entry fee, leave empty if none</string>
+    <string name="_1st">1st</string>
+    <string name="_2nd">2nd</string>
+    <string name="_3rd">3rd</string>
+    <string name="save_details">Save details</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="host_tournament">Host tournament</string>
+
+</resources>
+

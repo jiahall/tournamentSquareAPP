@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:textColorHint">@color/text</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+    </style>
+
+    <style name="editText" parent="TextAppearance.AppCompat">
+
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Theme">test</style>
+</resources>

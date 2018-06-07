@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hall.jia.tournamentsquareapp.MainActivity">
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btnlogout"
+        android:color="#fff"
+        android:drawableEnd="@drawable/ic_power_settings_new_black_24dp"
+        android:text="@string/logout"
+        android:textColor="@color/buttontxt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnHost"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+        android:layout_margin="30dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonstyleblue"
+        android:text="@string/host_tournament"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/btnHosted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
+
+    <Button
+        android:id="@+id/btnHosted"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+
+        android:layout_margin="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonstyleblue"
+        android:text="Hosted Tournaments"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/btnJoin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHost" />
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+
+        android:layout_margin="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonstyleblue"
+        android:text="Join tournament"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/btnJoined"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHosted" />
+
+    <Button
+        android:id="@+id/btnrunning"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+
+        android:layout_margin="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonstyleblue"
+        android:text="Running tournament"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnJoined" />
+
+    <Button
+        android:id="@+id/btnJoined"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+
+        android:layout_margin="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonstyleblue"
+        android:text="Joined Tournament"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/btnrunning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnJoin" />
+
+</android.support.constraint.ConstraintLayout>
